@@ -62,3 +62,39 @@ $on-laptop:        800px;
 .site-title-text {
 
 }
+
+.post-list > li {
+  //background-color: #ddd;
+  //border-top-left-radius: 5px;
+  //border-top-right-radius: 5px;
+  //padding: 10px;
+
+  .post-item-header {
+    // @extend %clearfix;
+
+    background-color: #333;
+    border-top-left-radius: 20px;
+    //border-top-right-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 0;
+
+    h2 {
+      ///background-color: #333;
+      color: #fff;
+      margin-bottom: 0;
+
+      a {
+        color: #fff;
+      }
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .post-item-preview {
+    background-color: #ddd;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+  }
+}
